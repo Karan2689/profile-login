@@ -5,6 +5,74 @@ body
   margin: 0;
   height: 100%;
 }
+@media ( max-width : 941px)
+{
+  #userForm
+  {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  .form-input-i
+  {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    font-family: 'nunito',sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #f1f1f1;
+    outline: 0;
+    font-size: 1.3rem;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.4s;
+  }
+  .form-input-i:focus
+  {
+    border-color: #393fc7;
+  }
+}
+@media ( min-width : 942px)
+{
+  #userForm
+  {
+    display: block;
+    width: 665px;
+    margin: auto;
+  }
+  .form-input-i
+  {
+    display: inline-block;
+    width: 330px;
+    margin: auto;
+    font-family: 'nunito',sans-serif;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #f1f1f1;
+    outline: 0;
+    font-size: 1.3rem;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.4s;
+  }
+  .form-input-i:focus
+  {
+    border-color: #393fc7;
+  }
+}
+#msg
+{
+  text-align: center;
+  font-family: 'josefin sans',sans-serif;
+  font-size: 22px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
 #left
 {
   height: 100%;
