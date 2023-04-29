@@ -3,9 +3,35 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Welcome</title>
+	<title>Insertion</title>
+	<link rel="icon" type="image/png" href="assets/favicon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="css/style.css">
+  	<script src="js/index.js"></script>
 </head>
 <body>
-
+	<img src="assets/favicon.png" style="width:100px;display: block;margin: auto;border-radius: 50px;border: 1px solid grey;" id="profile-icon"></img>
+	<p id="msg">Enter Details for your profile</p>
+	<form id="userForm" method="POST">
+		<input type="email" class="form-input-i" id="email" placeholder="Enter email" name="email" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Name" name="name" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Designation" name="desg" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Tagline" name="tag" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Description" name="des" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Linkedin profile link" name="linkedin" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Phone number" name="phone" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Project 1 image link" name="p1_img" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Project 1 title" name="p1_title" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Project 1 Link" name="p1_link" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Project 2 image link" name="p2_img" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Project 2 title" name="p2_title" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter Project 2 Link" name="p2_link" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter your skills" name="skills" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter your Areas of interest" name="area" style="padding: 10px;">
+		<input type="text" class="form-input-i" id="email" placeholder="Enter your Resume Link" name="resume" style="padding: 10px;">
+		<button type="submit" class="btn btn-default" id="submit-btn">LOGIN</button>
+	</form>
 </body>
 </html>
