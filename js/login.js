@@ -27,7 +27,7 @@ $(document).on('submit','#userForm',function(e){
                           {
                             localStorage.setItem("email", email);
                             localStorage.setItem("status", "logged");
-                            window.location.href = 'profile.html';
+                            window.location.href = 'index.html';
                           }
                           else
                           {
