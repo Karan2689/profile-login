@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration</title>
+	<link rel="icon" type="image/png" href="assets/favicon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="css/style.css">
+  	<script src="index.js"></script>
+</head>
+<body>
+	<div class="container" style="padding:0;margin:0;height: 100%;width: 100%;">
+	  <div class="row" style="height:100%;padding:0;margin:0;width: 100%;">
+	      <div class="col-sm-6 h-100" id="left" style="background-color: #393FC7;padding:0;margin:0;">
+	      	 <img src="assets/bg.png" style="width:200%;">
+	      </div>
+	      <div class="col-sm-6 other h-100">
+	      	<div style="transform: translateY(40%);padding:0;margin:0;">
+  		      	<i class="bi bi-person-circle" id="profile-icon"></i>
+  		      	<p id="msg"></p>
+  		      	<form style="display: block;margin: auto;width: 75%;" id="userForm">
+  			      	<input type="email" class="form-input" id="email" placeholder="Enter email" name="email" style="padding: 10px;">
+  			      	<div style="position: relative;width: 80%;margin: auto;">
+  			      		<input type="password" class="form-input" id="pwd" placeholder="Enter password" name="pwd" style="padding: 10px;width: 100%;">
+  			      		<button type="button" class="pwd-btn" onclick="showpwd()"><i class="bi bi-eye-fill"></i></button>
+  			      	</div>
+  			      	<div style="position: relative;width: 80%;margin: auto;">
+  			      		<input type="password" class="form-input" id="cpwd" placeholder="Confirm password" name="cpwd" style="padding: 10px;width: 100%;">
+  			      		<button type="button" class="pwd-btn" onclick="showcpwd()"><i class="bi bi-eye-fill"></i></button>
+  			      	</div>
+  			      	<button type="submit" class="btn btn-default" id="submit-btn">REGISTER</button>
+  		      	</form>
+  		      	<script src="js/register.js"></script>
+	      	</div>
+	      </div>
+	    </div>
+	</div>
+</body>
+</html>
