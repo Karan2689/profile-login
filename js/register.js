@@ -25,7 +25,7 @@ $(document).on('submit','#userForm',function(e){
                           else if(data="Successful")
                           {
                             alert("Account creation Successful");
-                            window.location.href = 'login.html';
+                            window.location.href = 'index.html';
                           }
                           else if(data="Unsuccessful")
                           {
